@@ -43,3 +43,12 @@ ul.topnav li.right {
     float: none;
   }
 }
+.Contact {
+  margin-left: 50px;
+}
+.description {
+  width: 1000px;
+  text-align: justify;
+  font-size: 19px;
+  margin-left: 50px;
+}
