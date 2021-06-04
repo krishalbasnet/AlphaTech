@@ -55,3 +55,7 @@ p.description {
 .Name {
   margin-left: 50px;
 }
+.Media {
+  text-decoration: none;
+  color: yellowgreen;
+  font-weight: bold;
