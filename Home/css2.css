@@ -32,7 +32,20 @@ ul.topnav li a:hover:not(.active) {
 ul.topnav li a.active {
   background-color: #04aa6d;
 }
-
+.wide {
+  background-color: #333;
+}
+.TOPIMG {
+  width: 100px;
+  height: 100px;
+  margin-left: 100px;
+}
+.poilk {
+  font-size: 80px;
+  margin-left: 50px;
+  font: Cinzel;
+  color: #5488a1;
+}
 ul.topnav li.right {
   float: right;
 }
@@ -47,7 +60,7 @@ ul.topnav li.right {
   margin-left: 50px;
 }
 .description {
-  width: 1000px;
+  width: 75%;
   text-align: justify;
   font-size: 19px;
   margin-left: 50px;

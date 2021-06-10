@@ -52,3 +52,17 @@ ul.topnav li.right {
 .Submit {
   margin-left: 50px;
 }
+.wide {
+  background-color: #333;
+}
+.TOPIMG {
+  width: 100px;
+  height: 100px;
+  margin-left: 100px;
+}
+.poilk {
+  font-size: 80px;
+  margin-left: 50px;
+  font: Cinzel;
+  color: #5488a1;
+}
