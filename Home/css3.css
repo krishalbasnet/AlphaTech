@@ -66,3 +66,8 @@ ul.topnav li.right {
   font: Cinzel;
   color: #5488a1;
 }
+.Media {
+  text-decoration: none;
+  color: yellowgreen;
+  font-weight: bold;
+}
