@@ -7,6 +7,12 @@ body {
 .wide {
   background-color: #333;
 }
+.Topic {
+  font-size: 35px;
+  text-align: center;
+  color: black;
+  font-weight: 900;
+}
 .TOPIMG {
   width: 100px;
   height: 100px;
@@ -58,15 +64,14 @@ ul.topnav li.right {
 }
 .first {
   background-color: beige;
-  width: 40%;
+  width: 40.5%;
   margin-left: 100px;
   height: 400px;
   border: black;
   border-width: 5px;
   border-style: solid;
-  float: left;
 }
 .firstjpg {
-  width: 546px;
+  width: 500px;
   height: 300px;
 }
