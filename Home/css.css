@@ -12,10 +12,13 @@ body {
   text-align: center;
   color: black;
   font-weight: 900;
+  position: absolute;
+  bottom: 150px;
+  left: 115px;
+  color: white;
 }
 .TOPIMG {
-  width: 100px;
-  height: 100px;
+  width: 35%;
   margin-left: 100px;
 }
 .poilk {
@@ -62,16 +65,9 @@ ul.topnav li.right {
     float: none;
   }
 }
-.first {
-  background-color: beige;
-  width: 40.5%;
-  margin-left: 100px;
-  height: 400px;
-  border: black;
-  border-width: 5px;
-  border-style: solid;
-}
-.firstjpg {
+.Firstjpg {
   width: 500px;
   height: 300px;
+  margin-left: 100px;
+  box-shadow: 5px 5px 15px 0px black;
 }
