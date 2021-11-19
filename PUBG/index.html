@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <br><br><br><br><br><br><center><br><br>
+    <div class="box">
+        <script>
+            var games = 3;
+            var kills = 5;
+            var z = (kills/games)*100;
+            var c = Math.round(z)/100;
+            var d = c+0.25;
+            var e = ((games+5)*d)/5;
+            document.write("<br>Total Games Played: ",games);
+            document.write("<br>Total kills: ",kills);
+            document.write("<br>Current KD: ",c);
+            document.write("<br>Target KD after 5 games: ",d);
+            document.write("<br>",e," kills each in next 5 games");
+        </script>
+    </div></center>
+</body>
+</html>

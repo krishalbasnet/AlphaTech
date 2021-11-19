@@ -1,0 +1,16 @@
+body{
+    background-image: url("https://pbs.twimg.com/media/DaLe2ERVwAAZltE.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+}
+div.box{
+    background-color: aliceblue;
+    width: 75%;
+    height: 200px;
+    opacity: 0.75;
+    border: solid black;
+    box-shadow: black 10px 10px 10px 10px;
+    text-align: center;
+}
