@@ -4,28 +4,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <title>PUBG</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index. css">
 </head>
 <body>
     <br><br><br><br><br><br><center><br><br>
     <div class="box">
         <script>
-            var games = 3;
-            var kills = 5;
+            var games = 5;
+            var kills = 6;
             var z = (kills/games)*100;
             var c = Math.round(z)/100;
-            var d = c+0.25;
-            var e = ((games+5)*d)/5;
+            var d = c+0.03;
+            var e = ((games+1)*d)-kills;
             document.write("<br>Total Games Played: ",games);
             document.write("<br>Total kills: ",kills);
             document.write("<br>Current KD: ",c);
-            document.write("<br>Target KD after 5 games: ",d);
-            document.write("<br>",e," kills each in next 5 games");
+            document.write("<br>Target KD after games: ",d);
+            document.write("<br>",e," kills in next games<br><br>");
         </script>
-    </div></center>
+    </div>
+    <br>
+    <img id="myImage" class="rank" src="https://4pubg.com/wp-content/uploads/2018/12/PUBG-Mobile-Gold.png" alt="">
+    <br><br>
+    <div>
+        <script>
+            var rank = 2610;
+            document.write("Current rank is: ",rank,"<br>");
+            if (rank<2700)
+                {
+                    document.write("Gold I");
+                }
+            else if (rank<2800)
+                {
+                    document.write("Platinum V");
+                    document.getElementById('myImage').src='https://4pubg.com/wp-content/uploads/2018/12/PUBG-Mobile-Platinum.png';
+                }
+            else if (rank<2900)
+                {
+                    document.write("Platinum IV");
+                    document.getElementById('myImage').src='https://4pubg.com/wp-content/uploads/2018/12/PUBG-Mobile-Platinum.png';
+                }
+            else if (rank<3000)
+                {
+                    document.write("Platinum III");
+                    document.getElementById('myImage').src='https://4pubg.com/wp-content/uploads/2018/12/PUBG-Mobile-Platinum.png';
+                }
+            else if (rank<3100)
+                {
+                    document.write("Platinum II");
+                    document.getElementById('myImage').src='https://4pubg.com/wp-content/uploads/2018/12/PUBG-Mobile-Platinum.png';
+                }
+            else if (rank<3200)
+                {
+                    document.write("Platinum I");
+                    document.getElementById('myImage').src='https://4pubg.com/wp-content/uploads/2018/12/PUBG-Mobile-Platinum.png';
+                }
+            else if (rank<3300)
+                {
+                    document.write("Diamond V");
+                    document.getElementById('myImage').src='https://4pubg.com/wp-content/uploads/2018/12/PUBG-Mobile-Diamond.png';
+                }
+            else if (rank<3400)
+                {
+                    document.write("Diamond IV");
+                    document.getElementById('myImage').src='https://4pubg.com/wp-content/uploads/2018/12/PUBG-Mobile-Diamond.png';
+                }
+            else if (rank<3500)
+                {
+                    document.write("Diamond III");
+                    document.getElementById('myImage').src='https://4pubg.com/wp-content/uploads/2018/12/PUBG-Mobile-Diamond.png';
+                }
+            else if (rank<3600)
+                {
+                    document.write("Diamond II");
+                    document.getElementById('myImage').src='https://4pubg.com/wp-content/uploads/2018/12/PUBG-Mobile-Diamond.png';
+                }
+            else if (rank<3700)
+                {
+                    document.write("Diamond I");
+                    document.getElementById('myImage').src='https://4pubg.com/wp-content/uploads/2018/12/PUBG-Mobile-Diamond.png';
+                }
+        </script>
+    </div>
+</center>
 </body>
 </html>

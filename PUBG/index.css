@@ -5,12 +5,22 @@ body{
     font-family: 'Lobster', cursive;
     font-size: 24px;
 }
-div.box{
+div{
     background-color: aliceblue;
     width: 75%;
-    height: 200px;
     opacity: 0.75;
     border: solid black;
     box-shadow: black 10px 10px 10px 10px;
     text-align: center;
+}
+div.box{
+    height: auto;
+}
+img.rank{
+    height: 100px;
+    width: auto;
+    background-color: aliceblue;
+    border: solid black;
+    box-shadow: black 10px 10px 10px 0px;
+    border-radius: 25%;
 }
