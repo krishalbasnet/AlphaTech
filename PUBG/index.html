@@ -11,15 +11,15 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <img class="pp" src="257633019_2532821586862330_5672192963647026165_n.jpg" alt="">
     <br><br><br><br><br><br><center><br><br>
     <div class="box">
         <script>
-            var games = 5;
-            var kills = 6;
-            var z = (kills/games)*100;
-            var c = Math.round(z)/100;
-            var d = c+0.03;
-            var e = ((games+1)*d)-kills;
+            var games = 11;
+            var kills = 23;
+            var c = Math.round((kills/games)*100)/100;
+            var d = (Math.round((c+0.03)*100))/100;
+            var e = Math.round((((games+1)*d)-kills)*100)/100;
             document.write("<br>Total Games Played: ",games);
             document.write("<br>Total kills: ",kills);
             document.write("<br>Current KD: ",c);
@@ -32,60 +32,71 @@
     <br><br>
     <div>
         <script>
-            var rank = 2610;
+            var rank = 2700;
             document.write("Current rank is: ",rank,"<br>");
             if (rank<2700)
                 {
-                    document.write("Gold I");
+                    document.write("Gold I<br>");
+                    document.write(2700-rank," more to next tier");
                 }
             else if (rank<2800)
                 {
-                    document.write("Platinum V");
+                    document.write("Platinum V<br>");
+                    document.write(2800-rank," more to next tier");
                     document.getElementById('myImage').src='https://4pubg.com/wp-content/uploads/2018/12/PUBG-Mobile-Platinum.png';
                 }
             else if (rank<2900)
                 {
-                    document.write("Platinum IV");
+                    document.write("Platinum IV<br>");
+                    document.write(2900-rank," more to next tier");
                     document.getElementById('myImage').src='https://4pubg.com/wp-content/uploads/2018/12/PUBG-Mobile-Platinum.png';
                 }
             else if (rank<3000)
                 {
-                    document.write("Platinum III");
+                    document.write("Platinum III<br>");
+                    document.write(3000-rank," more to next tier");
                     document.getElementById('myImage').src='https://4pubg.com/wp-content/uploads/2018/12/PUBG-Mobile-Platinum.png';
                 }
             else if (rank<3100)
                 {
-                    document.write("Platinum II");
+                    document.write("Platinum II<br>");
+                    document.write(3100-rank," more to next tier");
                     document.getElementById('myImage').src='https://4pubg.com/wp-content/uploads/2018/12/PUBG-Mobile-Platinum.png';
                 }
             else if (rank<3200)
                 {
-                    document.write("Platinum I");
+                    document.write("Platinum I<br>");
+                    document.write(3200-rank," more to next tier");
                     document.getElementById('myImage').src='https://4pubg.com/wp-content/uploads/2018/12/PUBG-Mobile-Platinum.png';
                 }
             else if (rank<3300)
                 {
-                    document.write("Diamond V");
+                    document.write("Diamond V<br>");
+                    document.write(3300-rank," more to next tier");
                     document.getElementById('myImage').src='https://4pubg.com/wp-content/uploads/2018/12/PUBG-Mobile-Diamond.png';
                 }
             else if (rank<3400)
                 {
-                    document.write("Diamond IV");
+                    document.write("Diamond IV<br>");
+                    document.write(3400-rank," more to next tier");
                     document.getElementById('myImage').src='https://4pubg.com/wp-content/uploads/2018/12/PUBG-Mobile-Diamond.png';
                 }
             else if (rank<3500)
                 {
-                    document.write("Diamond III");
+                    document.write("Diamond III<br>");
+                    document.write(3500-rank," more to next tier");
                     document.getElementById('myImage').src='https://4pubg.com/wp-content/uploads/2018/12/PUBG-Mobile-Diamond.png';
                 }
             else if (rank<3600)
                 {
-                    document.write("Diamond II");
+                    document.write("Diamond II<br>");
+                    document.write(3600-rank," more to next tier");
                     document.getElementById('myImage').src='https://4pubg.com/wp-content/uploads/2018/12/PUBG-Mobile-Diamond.png';
                 }
             else if (rank<3700)
                 {
-                    document.write("Diamond I");
+                    document.write("Diamond I<br>");
+                    document.write(3700-rank," more to next tier");
                     document.getElementById('myImage').src='https://4pubg.com/wp-content/uploads/2018/12/PUBG-Mobile-Diamond.png';
                 }
         </script>

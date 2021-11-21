@@ -2,6 +2,7 @@ body{
     background-image: url("https://pbs.twimg.com/media/DaLe2ERVwAAZltE.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: fixed;
     font-family: 'Lobster', cursive;
     font-size: 24px;
 }
@@ -23,4 +24,14 @@ img.rank{
     border: solid black;
     box-shadow: black 10px 10px 10px 0px;
     border-radius: 25%;
+}
+img.pp{
+    height: 230px;
+    width: auto;
+    position: absolute;
+    background-color: aliceblue;
+    border: solid black;
+    box-shadow: black 10px 10px 10px 0px;
+    border-radius: 25%;
+}
 }
