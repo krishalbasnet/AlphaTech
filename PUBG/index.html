@@ -15,15 +15,16 @@
     <br><br><br><br><br><br><center><br><br>
     <div class="box">
         <script>
-            var games = 11;
-            var kills = 23;
+            var games = 29;
+            var kills = 51;
             var c = Math.round((kills/games)*100)/100;
             var d = (Math.round((c+0.03)*100))/100;
-            var e = Math.round((((games+1)*d)-kills)*100)/100;
+            var d2 = 2;
+            var e = Math.round((((games+1)*d2)-kills)*100)/100;
             document.write("<br>Total Games Played: ",games);
             document.write("<br>Total kills: ",kills);
             document.write("<br>Current KD: ",c);
-            document.write("<br>Target KD after 1 game: ",d);
+            document.write("<br>Target KD after 1 game: ",d2);
             document.write("<br>",e," kills in next games<br><br>");
         </script>
     </div>
@@ -32,7 +33,7 @@
     <br><br>
     <div>
         <script>
-            var rank = 2700;
+            var rank = 2729;
             document.write("Current rank is: ",rank,"<br>");
             if (rank<2700)
                 {
