@@ -16,13 +16,13 @@
     <br><br><br><br><br><br><center><br><br>
     <div class="box">
         <script>
-            var games = 175;
+            var games = 250;
             var kills = 403;
-            f3 = 176;
+            f3 = games+1;
             var c = Math.round((kills/games)*100)/100;
             var d = (Math.round((c+0.03)*100))/100;
             var d2_ = Math.round((c+0.1)*100)/100;
-            var d2 = 2.5;
+            var d2 = 3;
             var e = Math.round(((((games+f3-games)*d2)-kills)/(f3-games))*100)/100;
             document.write("<br>Total Games Played: ",games);
             document.write("<br>Total kills: ",kills);
