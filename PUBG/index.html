@@ -17,7 +17,7 @@
     <div class="box">
         <script>
             var games = 175;
-            var kills = 352;
+            var kills = 400;
             f3 = 176;
             var c = Math.round((kills/games)*100)/100;
             var d = (Math.round((c+0.03)*100))/100;
@@ -36,7 +36,7 @@
     <br><br>
     <div>
         <script>
-            var rank = 3616;
+            var rank = 3799;
             document.write("Current rank is: ",rank,"<br>");
             if (rank<2700)
                 {
@@ -102,6 +102,12 @@
                     document.write("Diamond I<br>");
                     document.write(3700-rank," more to next tier");
                     document.getElementById('myImage').src='https://4pubg.com/wp-content/uploads/2018/12/PUBG-Mobile-Diamond.png';
+                }
+            else if(rank<3800)
+                {
+                    document.write("Crown V<br>");
+                    document.write(3800-rank," more to next tier");
+                    document.getElementById('myImage').src='https://i.pinimg.com/originals/66/9b/76/669b7657a942349586b6486a63a4bb11.png';
                 }
         </script>
     </div>
