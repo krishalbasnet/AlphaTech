@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://pbs.twimg.com/media/DaLe2ERVwAAZltE.jpg");
+    background-image: url("181-1819824_pubg-minimalist-playerunknown-s-battlegrounds-4k-wallpaper-pubg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-image: fixed;
@@ -28,9 +28,8 @@ img.rank{
 img.pp{
     height: 230px;
     width: auto;
-    position: absolute;
     background-color: aliceblue;
     border: solid black;
     box-shadow: black 10px 10px 10px 0px;
-    border-radius: 25%;
+    border-radius: 50%;
 }
