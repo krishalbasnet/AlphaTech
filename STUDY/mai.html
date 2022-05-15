@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mai.css">
+</head>
+<body>
+    <center>
+        <h1>Now read:</h1><br>
+        <script>
+            var Physics = new Array(
+                "Rotational Dynamics",
+                "Perioic Motion",
+                "Fluid Statics",
+                "First Law Of Thermodynamics",
+                "Second Law of Thermodynamics",
+                "Wave Motion",
+                "Mechanical Wave",
+                "Waves in Pipes and String",
+                "Acoustic Phenomena",
+                "Nature and Propagation Of Light",
+                "Interference",
+                "Diffraction",
+                "Polarisation",
+                "Electrical Circuit",
+                "Thermoelectric Effect",
+                "Magnetic Field",
+                "Magnetic Properties Of Material",
+                "Electromagnetic Induction",
+                "Alternating Current",
+                "Electrons",
+                "Photons",
+                "Semiconductor",
+                "Quantization of energy",
+                "Radioactivity",
+                "Recent Trend in Physics"
+            );
+            var Computer = new Array(
+                "DBMS",
+                "Data Communication and Network",
+                "Web Technology",
+                "C",
+                "OOP",
+                "SPM",
+                "Recent Trend in Technology"
+            );
+            var Mathematics = new Array(
+                "Permutation & Combination",
+                "Binomial Theorem",
+                "Exponential and Logarithmic Series",
+                "Complex Number",
+                "Polynomial and Natural Numbers",
+                "System of Linear Eqation",
+                "Trigonometry",
+                "Conic Section",
+                "Coordinates in Space",
+                "Plane",
+                "Vector",
+                "Correlation and Regression Analysis",
+                "Probability",
+                "Computatational Method",
+                "Economics"
+            );
+            var Chemistry = new Array(
+                "Volumetric Analysis",
+                "Ionic Equilibrium",
+                "Chemical Kinetics",
+                "Thermodynamics",
+                "Electrochemistry",
+                "Transition Metal",
+                "Study Of Heavy Metals",
+                "Haloalkanes",
+                "Haloarenes",
+                "Alcohols",
+                "Phenols",
+                "Ethers",
+                "Aldehydes and Ketones",
+                "Carboxylic Acid",
+                "Nitro Compound",
+                "Amines",
+                "Organometallic Compounds",
+                "Chemistry in Service to Mankind",
+                "Cement",
+                "Paper and Pulp",
+                "Nuclear Chemistry"
+            );
+        </script>
+        <div class="gama">
+            <script>
+                var a = parseInt(Math.random()*4);
+                switch (a){
+                    case 0:
+                        var ch = parseInt(Math.random()*26);
+                        document.write(Physics[ch]);
+                        document.write("<br><br>Physics");
+                        break;
+                    case 1:
+                        var ch = parseInt(Math.random()*8);
+                        document.write(Computer[ch]);
+                        document.write("<br><br>Computer");
+                        break;
+                    case 2:
+                        var ch = parseInt(Math.random()*17);
+                        document.write(Mathematics[ch]);
+                        document.write("<br><br>Math");
+                        break;
+                    case 3:
+                        var ch = parseInt(Math.random()*22);
+                        document.write(Chemistry[ch]);
+                        document.write("<br><br>Chemistry");
+                        break;
+                }
+            </script>
+        </div>
+    </center>
+</body>
+</html>

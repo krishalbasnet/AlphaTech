@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(75, 74, 73);
+}
+h1{
+    font-size: 41px;
+}
+div.gama{
+    background-color: blanchedalmond;
+    width: 30%;
+    height: auto;
+    font-size: 30px;
+    border-radius: 15px;
+    box-shadow: black 15px 15px 15px;
+}
