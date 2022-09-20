@@ -2,28 +2,32 @@ a{
     text-decoration: none;
 }
 div.alpha{
-    width: 500px;
-    height: 50px;
+    width: 100%;
+    height: auto ;
     background-color: brown;
     border: 1px black solid;
     color: black;
     font-size: 42px;
     text-align: center;
     align-content: center;
-    position: absolute;
 }
 body{
     background-color: rgb(113, 113, 253);
     font-family: 'Source Code Pro', monospace;
     font-family: 'Space Grotesk', sans-serif;
+    font-size: 22px;
 }
 div.beta{
-    width: 500px;
-    height: 50px;
+    width: 100%;
+    height: auto;
     background-color: brown;
     border: 1px black solid;
     color: black;
     font-size: 42px;
     text-align: center;
     align-content: center;
+}
+td{
+    border: 1px solid black;
+    text-align: center;
 }
