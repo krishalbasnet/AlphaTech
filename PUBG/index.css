@@ -30,6 +30,6 @@ img.pp{
     width: auto;
     background-color: aliceblue;
     border: solid black;
-    box-shadow: black 10px 10px 10px 0px;
+    box-shadow: black 0px 0px 20px 1px;
     border-radius: 50%;
 }
